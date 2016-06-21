@@ -1,0 +1,24 @@
+Project 6
+CS 4475
+
+
+
+f_in_pixels = width_in_pixels * (f_in_mm / width_in_mm)
+
+Camera used: Samsung Galaxy S4
+
+width_in_pixels: 640
+Arbitrarily chosen due to need to scale photos down using GIMP. It helps that the photos have a clean 640x360 dimension when scaled.
+
+f_in_mm: 4.2
+This value can be found on the phone itself, by clicking "Details" when viewing a particular image.
+
+width_in_mm: 2.4
+This value comes from the following website, based on the Galaxy S4 having a sensor size of 1/6 in:
+http://mobileandphone.com/camera-sensor-lens-technical-specs-explained/
+
+
+
+f_in_pixels = 640 * (4.2 / 2.4)
+
+f_in_pixels = 1120
